@@ -1,0 +1,6 @@
+1. display all the guitars (type) which the price is lower than 100
+
+SELECT * FROM `instruments` WHERE `type`='guitar' AND `price`<'100';
+
+
+2. display all instruments (name) for band_id = 5
